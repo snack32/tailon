@@ -15,7 +15,7 @@ frontend-watch:
 	cd frontend && $(MAKE) watch BUILD=$(BUILD)
 
 docker-build:
-	sudo docker build -t gvalkov/tailon .
+	sudo docker build -t snack32/tailon .
 
 README.md:
 	go build
